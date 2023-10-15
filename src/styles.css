@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container{
+    margin:0 5%;
+}
+.common-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+.form-input {
+  height: 35px;
+  margin-bottom: 20px;
+  border: 1px solid #3876BF;
+  padding-left: 15px;
+  color: #3876BF;
+  font-family: "Poppins",sans-serif;
+  border-radius: 6px;
+}
+.form-button {
+  height: 35px;
+  border: 1px solid #3876BF;
+  border-radius: 6px;
+  color: #3876BF;
+  cursor: pointer;
+}
+/* 
+colors i will use
+#192655 - dark blue 
+#3876BF - light blue //primary color
+#E1AA74 - brown
+#F3F0CA - light brown - white // secondary color for text
+https://colorhunt.co/palette/1926553876bfe1aa74f3f0ca */
