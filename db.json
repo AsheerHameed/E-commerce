@@ -1,22 +1,39 @@
 {
   "seller": [
     {
-      "name": "Asheer",
-      "email": "asheer@gmail.com",
-      "password": "pass@12",
+      "email": "thomas@test.com",
+      "name": "thomas",
+      "password": "test@123",
       "id": 1
     },
     {
-      "name": "Asheer2",
-      "email": "asheer@gmail.com",
-      "password": "pass@122",
+      "email": "asheer@seller",
+      "name": "asheer12",
+      "password": "asheer12",
       "id": 2
     },
     {
-      "name": "Asheer3",
-      "email": "asheer12@gmail.com",
-      "password": "pass@1222",
+      "email": "asheer23",
+      "name": "asj11",
+      "password": "sdjidjwiod",
       "id": 3
+    },
+    {
+      "email": "ukuku@gmail.com",
+      "name": "ukuku",
+      "password": "ukukuuk",
+      "id": 4
+    },
+    {
+      "email": "sdsdsd",
+      "password": "ssdsdq",
+      "id": 5
+    },
+    {
+      "email": "asheerhameed@doshaheen.com",
+      "name": "asheerhameed",
+      "password": "Asheer",
+      "id": 6
     }
   ]
 }

@@ -16,7 +16,6 @@ body {
   margin-bottom: 20px;
   border: 1px solid #3876BF;
   padding-left: 15px;
-  color: #3876BF;
   font-family: "Poppins",sans-serif;
   border-radius: 6px;
 }
@@ -26,6 +25,7 @@ body {
   border-radius: 6px;
   color: #3876BF;
   cursor: pointer;
+  font-family: "Poppins",sans-serif;
 }
 /* 
 colors i will use

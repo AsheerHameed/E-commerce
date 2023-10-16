@@ -1,6 +1,14 @@
-.signup{
+.signup,.login{
     text-align: center;
     color: #3876BF;
     margin-top:80px ;
     margin-bottom: 50px;
+}
+.auth-link{
+    font-size: 14px;
+    cursor: pointer;
+    color: #192655;
+}
+.error-p{
+    color: red;
 }
