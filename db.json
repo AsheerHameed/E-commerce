@@ -35,5 +35,61 @@
       "password": "Asheer",
       "id": 6
     }
+  ],
+  "products": [
+    {
+      "name": "Iphone 14",
+      "price": "2049",
+      "color": "Redgreen",
+      "category": "Mobile",
+      "description": "The iPhone 13 is a high-quality mobile phone with advanced features and a sleek design",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-finish-select-202207-pink?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693063160403",
+      "id": 2
+    },
+    {
+      "name": "iPhone 13",
+      "price": "199992",
+      "color": "Red",
+      "category": "Mobile",
+      "description": "The iPhone 13 is a high-quality mobile phone with advanced features and a sleek design.",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-finish-select-202207-pink?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693063160403",
+      "id": 3
+    },
+    {
+      "name": "Samsung Galaxy S21",
+      "price": "1799.99",
+      "color": "Red",
+      "category": "Mobile",
+      "description": "The Samsung Galaxy S21 is a powerful Android smartphone with a stunning display and excellent camera capabilities.",
+      "image": "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&q=80&w=1740&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 4
+    },
+    {
+      "name": "MacBook Pro 16-inch",
+      "price": "2499.00",
+      "color": "Space green",
+      "category": "Laptop",
+      "description": "The MacBook Pro 16-inch is a high-performance laptop with a large display, ideal for creative professionals.",
+      "image": "https://source.unsplash.com/random",
+      "id": 5
+    },
+    {
+      "name": "Sony PlayStation 5",
+      "price": "499.99",
+      "color": "White",
+      "category": "Gaming Console",
+      "description": "The Sony PlayStation 5 is the next-gen gaming console offering cutting-edge gaming experiences.",
+      "image": "https://source.unsplash.com/random",
+      "id": 6
+    },
+    {
+      "name": "semsung promax",
+      "price": "8000000",
+      "color": "pink",
+      "category": "black",
+      "description": "made in china",
+      "image": "https://i.gadgets360cdn.com/products/large/nokia-2720-flip-525x800-1567694958.jpg",
+      "id": 7
+    }
   ]
 }

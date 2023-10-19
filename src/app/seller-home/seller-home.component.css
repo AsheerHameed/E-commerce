@@ -1,0 +1,25 @@
+table{
+    text-align: left;
+    color: #3876BF;
+    border-collapse: collapse;
+}
+table td, table th{
+border: 1px solid #3876BF;
+padding: 12px;
+min-height: 150px;
+}
+table th{
+    color: black;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.adjust-update-icon{
+    color: #3876BF;
+    cursor: pointer;
+    margin-left: 8px;
+}

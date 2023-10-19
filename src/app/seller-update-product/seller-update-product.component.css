@@ -1,0 +1,7 @@
+.add-product h1,p{
+    text-align: center;
+}
+textarea{
+    height:80px;
+    padding: 10px;
+}

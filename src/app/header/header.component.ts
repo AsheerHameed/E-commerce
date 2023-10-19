@@ -15,7 +15,6 @@ export class HeaderComponent implements OnInit {
       if (event.url) {
         if (localStorage.getItem('seller') && event.url.includes('seller')) {
           this.menuType = 'seller';
-          console.log('in seller');
           if (localStorage.getItem('seller')) {
             let sellerStore = localStorage.getItem('seller');
             let sellerData = sellerStore && JSON.parse(sellerStore)[0];
@@ -23,12 +22,10 @@ export class HeaderComponent implements OnInit {
           }
         } else {
           this.menuType = 'default';
-          console.log('in default');
         }
       }
     });
   }
-
   logout() {
     localStorage.removeItem('seller');
     this.router.navigate(['/']);

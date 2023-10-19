@@ -1,6 +1,6 @@
 import { EventEmitter, Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { loginType, signUpType } from '../seller-auth/sellerSignUpType';
+import { loginType, signUpType } from '../dataType';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { Router, UrlTree } from '@angular/router';
 @Injectable({

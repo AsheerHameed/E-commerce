@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { SellerService } from '../services/seller.service';
 import { Router } from '@angular/router';
-import { signUpType, loginType } from './sellerSignUpType';
+import { signUpType, loginType } from '../dataType';
 @Component({
   selector: 'app-seller-auth',
   templateUrl: './seller-auth.component.html',

@@ -27,10 +27,24 @@ body {
   cursor: pointer;
   font-family: "Poppins",sans-serif;
 }
+.message_p{
+color: green;
+}
+
+
+.carousel-caption{
+  background-color: #00000071;
+  border-radius: 5px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: black;
+  border-radius: 8px;
+  padding: 14px;
+}
 /* 
 colors i will use
 #192655 - dark blue 
 #3876BF - light blue //primary color
 #E1AA74 - brown
-#F3F0CA - light brown - white // secondary color for text
+#  - light brown - white // secondary color for text
 https://colorhunt.co/palette/1926553876bfe1aa74f3f0ca */
