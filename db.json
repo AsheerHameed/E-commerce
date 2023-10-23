@@ -91,5 +91,25 @@
       "image": "https://i.gadgets360cdn.com/products/large/nokia-2720-flip-525x800-1567694958.jpg",
       "id": 7
     }
+  ],
+  "users": [
+    {
+      "email": "asheerhameed@doshaheen.com",
+      "username": "asheerhameed",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "email": "newuser@test.com",
+      "username": "newuser",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "email": "peter@gmail.com",
+      "username": "peter12",
+      "password": "Peter123",
+      "id": 3
+    }
   ]
 }
