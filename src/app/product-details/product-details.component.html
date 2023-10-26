@@ -1,23 +1,24 @@
-<div class="row product-details" *ngIf="productInfo">
+<div class="row product-details" *ngIf="productData">
   <div class="col-sm-6">
-    <img class="product-image" src="{{ productInfo.image }}" alt="" />
+    <img class="product-image" src="{{ productData.image }}" alt="" />
   </div>
   <div class="col-sm-6">
     <div class="details">
-      <h1>{{ productInfo.name }}</h1>
-      <h3>Price : {{ productInfo.price }}</h3>
+      <h1>{{ productData.name }}</h1>
+      <h3>Price : {{ productData.price }}</h3>
       <div>
         Color :
         <h5
-          [style.backgroundColor]="productInfo.color"
+          [style.backgroundColor]="productData.color"
           class="product-color"
         ></h5>
       </div>
-      <h6>Category : {{ productInfo.category }}</h6>
-      <h6>Description : {{ productInfo.description }}</h6>
+      <h6>Category : {{ productData.category }}</h6>
+      <h6>Description : {{ productData.description }}</h6>
     </div>
   
-      <button class="form-button ">Add to cart</button>
+      <button class="form-button" (click)="addToCart()" *ngIf="!removeCart">Add to cart</button>
+      <button class="form-button" (click)="removeFromCart(productData.id)" *ngIf="removeCart">Remove from cart</button>
       <button class="form-button btn-2" >Buy now</button>
 
     <div class="quantity-group">

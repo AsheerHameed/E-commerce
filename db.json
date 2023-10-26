@@ -31,7 +31,7 @@
     },
     {
       "email": "asheerhameed@doshaheen.com",
-      "name": "asheerhameed",
+      "name": "asheer",
       "password": "Asheer",
       "id": 6
     }
@@ -110,6 +110,25 @@
       "username": "peter12",
       "password": "Peter123",
       "id": 3
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "email": "aaaa",
+      "address": "asheerhameed@doshaheen.com",
+      "contact": "9999",
+      "totalPrice": 203940.99,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "ASH@TEST.COM",
+      "address": "ASH",
+      "contact": "9999",
+      "totalPrice": 9846.98,
+      "userId": 1,
+      "id": 2
     }
   ]
 }

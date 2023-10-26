@@ -32,7 +32,9 @@ body {
 color: green;
 }
 
-
+.error_p{
+  color: red;
+}
 .carousel-caption{
   background-color: #00000071;
   border-radius: 5px;
@@ -41,6 +43,14 @@ color: green;
   background-color: black;
   border-radius: 8px;
   padding: 14px;
+}
+.invalid-input{
+  color: red;
+  margin-top: -20px;
+  font-size: 12px;
+}
+.max-width{
+  width: 100%;
 }
 /* 
 colors i will use

@@ -12,8 +12,11 @@ export class HeaderComponent implements OnInit {
   menuType: string = '';
   sellerName: string = '';
   searchResult: undefined | product[];
+  userName: string = '';
+  cartValue : undefined | number = 0
   constructor(private router: Router, private product: ProductService) {}
   ngOnInit(): void {
+
     this.router.events.subscribe((event: any) => {
       if (event.url) {
         if (localStorage.getItem('seller') && event.url.includes('seller')) {
@@ -23,23 +26,41 @@ export class HeaderComponent implements OnInit {
             let sellerData = sellerStore && JSON.parse(sellerStore)[0];
             this.sellerName = sellerData.name;
           }
+        } else if (localStorage.getItem('user')) {
+          let userStore = localStorage.getItem('user');
+          let userData = userStore && JSON.parse(userStore);
+          this.userName = userData.username;
+          this.menuType = 'user';
+          this.product.getCartList(userData.id)
         } else {
           this.menuType = 'default';
         }
       }
     });
+
+    let cartData  = localStorage.getItem('localCart') 
+    if(cartData){
+      this.cartValue = JSON.parse(cartData).length
+    }
+    this.product.cartData.subscribe((items)=>{
+      this.cartValue = items.length
+    })
   }
-  logout() {
+  sellerLogout() {
     localStorage.removeItem('seller');
     this.router.navigate(['/']);
   }
-
+  userLogout() {
+    localStorage.removeItem('user');
+    this.router.navigate(['/auth']);
+    this.product.cartData.emit([])
+  }
   searchProduct(query: KeyboardEvent) {
     if (query) {
       const productQuery = query.target as HTMLInputElement;
       this.product.searchProducts(productQuery.value).subscribe((res) => {
         this.searchResult = res;
-        if(res.length>5){
+        if (res.length > 5) {
           res.length = 5;
         }
       });
@@ -49,10 +70,10 @@ export class HeaderComponent implements OnInit {
   hideSearch() {
     this.searchResult = undefined;
   }
-  searchedText(value: string){
-this.router.navigate([`search/${value}`]);
+  searchedText(value: string) {
+    this.router.navigate([`search/${value}`]);
   }
-  redirectToDetailsPage(id:number){
+  redirectToDetailsPage(id: number) {
     this.router.navigate([`details/${id}`]);
   }
 }
