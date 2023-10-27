@@ -38,22 +38,13 @@
   ],
   "products": [
     {
-      "name": "Iphone 14",
-      "price": "2049",
+      "name": "Iphone 13",
+      "price": "2049.99",
       "color": "Redgreen",
       "category": "Mobile",
       "description": "The iPhone 13 is a high-quality mobile phone with advanced features and a sleek design",
       "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-finish-select-202207-pink?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693063160403",
-      "id": 2
-    },
-    {
-      "name": "iPhone 13",
-      "price": "199992",
-      "color": "Red",
-      "category": "Mobile",
-      "description": "The iPhone 13 is a high-quality mobile phone with advanced features and a sleek design.",
-      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-finish-select-202207-pink?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693063160403",
-      "id": 3
+      "id": 1
     },
     {
       "name": "Samsung Galaxy S21",
@@ -61,8 +52,17 @@
       "color": "Red",
       "category": "Mobile",
       "description": "The Samsung Galaxy S21 is a powerful Android smartphone with a stunning display and excellent camera capabilities.",
-      "image": "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&q=80&w=1740&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "id": 4
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJUVlJwdEBZZFmA8WT-Avxxa8DXXICZprkWaQnFVVoNFT0SBGMXandfsJhyYydTyfKp-HfhpK4O3g_EXTeQG5iVp515svHXRit0HFw9hAPBrVLRA285TnZCA",
+      "id": 2
+    },
+    {
+      "name": "Nothing Phone (1)",
+      "price": "999",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "Less distractions. More soul.\nJust pure instinct, formed as a machine. Told through beautiful symbols. Deeper interactions. And brave simplicity.\nPhone (1) can bring us back. To us.",
+      "image": "https://cdn.shopify.com/s/files/1/0514/8554/0505/files/BA_ABR_310_1060.png?v=1661861425",
+      "id": 3
     },
     {
       "name": "MacBook Pro 16-inch",
@@ -70,8 +70,8 @@
       "color": "Space green",
       "category": "Laptop",
       "description": "The MacBook Pro 16-inch is a high-performance laptop with a large display, ideal for creative professionals.",
-      "image": "https://source.unsplash.com/random",
-      "id": 5
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp16-spacegray-select-202301?wid=2000&hei=1222&fmt=jpeg&qlt=95&.v=1671304673202",
+      "id": 4
     },
     {
       "name": "Sony PlayStation 5",
@@ -79,17 +79,35 @@
       "color": "White",
       "category": "Gaming Console",
       "description": "The Sony PlayStation 5 is the next-gen gaming console offering cutting-edge gaming experiences.",
-      "image": "https://source.unsplash.com/random",
+      "image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&q=80&w=1740&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 5
+    },
+    {
+      "name": "MacBook Air 13 Inch",
+      "price": "499.99",
+      "color": "White",
+      "category": "Gaming Console",
+      "description": "The Sony PlayStation 5 is the next-gen gaming console offering cutting-edge gaming experiences.",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&q=80&w=1742&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "id": 6
     },
     {
-      "name": "semsung promax",
-      "price": "8000000",
-      "color": "pink",
-      "category": "black",
-      "description": "made in china",
-      "image": "https://i.gadgets360cdn.com/products/large/nokia-2720-flip-525x800-1567694958.jpg",
+      "name": "Nike Shoes",
+      "price": "299.99",
+      "color": "Red",
+      "category": "shoes",
+      "description": "The Sony PlayStation 5 is the next-gen gaming console offering cutting-edge gaming experiences.",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=1740&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "id": 7
+    },
+    {
+      "name": "Reebok shoes",
+      "price": "299.99",
+      "color": "White",
+      "category": "shoes",
+      "description": "The Sony PlayStation 5 is the next-gen gaming console offering cutting-edge gaming experiences.",
+      "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&q=80&w=1742&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 8
     }
   ],
   "users": [
@@ -114,14 +132,6 @@
   ],
   "cart": [],
   "orders": [
-    {
-      "email": "aaaa",
-      "address": "asheerhameed@doshaheen.com",
-      "contact": "9999",
-      "totalPrice": 203940.99,
-      "userId": 1,
-      "id": 1
-    },
     {
       "email": "ASH@TEST.COM",
       "address": "ASH",

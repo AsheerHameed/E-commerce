@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
   sellerName: string = '';
   searchResult: undefined | product[];
   userName: string = '';
-  cartValue : undefined | number = 0
+  cartValue :  number = 0
   constructor(private router: Router, private product: ProductService) {}
   ngOnInit(): void {
 

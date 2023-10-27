@@ -15,13 +15,13 @@ export class MyOrdersComponent implements OnInit {
   ngOnInit(): void {
     this.getOrderList()
   }
-  // cancelOrder(orderId:number|undefined){
-  //   orderId && this.product.cancelOrder(orderId).subscribe((result)=>{
-  //     if(result){
-  //       this.getOrderList();
-  //     }
-  //   })
-  // }
+  cancelOrder(orderId:number|undefined){
+    orderId && this.product.cancelOrder(orderId).subscribe((result)=>{
+      if(result){
+        this.getOrderList();
+      }
+    })
+  }
   getOrderList(){
     this.product.orderList().subscribe((result)=>{
       this.orderData=result;
