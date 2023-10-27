@@ -24,7 +24,7 @@ export class ProductDetailsComponent implements OnInit {
         this.productData = res;
         let cartData = localStorage.getItem('localCart');
         if (productId && cartData) {
-          let items = JSON.parse(cartData);
+          let items = JSON.parse(cartData);     
           items = items.filter(
             (item: product) => productId == item.id.toString()
           );
@@ -103,6 +103,5 @@ export class ProductDetailsComponent implements OnInit {
       });
     }
     this.removeCart = false;
-
   }
 }

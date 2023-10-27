@@ -7,7 +7,10 @@
 .product-wrapper{
     margin: 80px 0;
 }
-
+.product-wrapper h1{
+text-align: center;
+padding-bottom: 40px ;
+}
 .product-item{
     margin-bottom: 40px;
     border: 1px solid #ccc;

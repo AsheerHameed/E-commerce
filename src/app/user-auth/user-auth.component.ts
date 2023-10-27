@@ -21,7 +21,6 @@ export class UserAuthComponent implements OnInit {
   login(data: loginType) {
     this.user.userLogin(data);
     this.user.invalidUserAuth.subscribe((err) => {
-      console.warn(err);
       if (err) {
         this.authError = 'Invalid Credentials';
       } else {

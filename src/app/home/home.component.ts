@@ -22,4 +22,7 @@ export class HomeComponent implements OnInit {
       this.trendyProduct = data
     });
   }
+  addToCart(){
+    
+  }
 }

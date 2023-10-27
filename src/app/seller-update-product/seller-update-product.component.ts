@@ -24,7 +24,7 @@ export class SellerUpdateProductComponent implements OnInit {
         this.productData = result;
       });
   }
-  updateProductForm(data: any) {
+  updateProductForm(data: product) {
     if (this.productData) {
       data.id = this.productData.id;
     }

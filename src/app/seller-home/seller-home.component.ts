@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../services/product.service';
 import { product } from '../dataType';
-import { faTrash ,faEdit} from '@fortawesome/free-solid-svg-icons';
+import { faTrash, faEdit } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-seller-home',
   templateUrl: './seller-home.component.html',
   styleUrls: ['./seller-home.component.css'],
 })
-
 export class SellerHomeComponent implements OnInit {
   products: product[] | undefined;
   productDeleteMessage: string | undefined;
@@ -26,9 +25,7 @@ export class SellerHomeComponent implements OnInit {
     setTimeout(() => (this.productDeleteMessage = undefined), 2000);
     this.list();
   }
-updateProduct(id: number){
-  
-}
+  updateProduct(id: number) {}
   list() {
     this.product.productList().subscribe((res) => {
       this.products = res;

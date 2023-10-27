@@ -27,7 +27,6 @@
     <ul *ngSwitchCase="'seller'">
       <li><a routerLink="/seller-home">Product list</a></li>
       <li><a routerLink="/seller-add-product">Add product</a></li>
-      <li><a href="#">Cart(0)</a></li>
       <li>
         <a href="#">Hello {{ sellerName | titlecase }}</a>
       </li>
@@ -42,7 +41,9 @@
       <li><a routerLink="my-orders">My orders</a></li>
       <li><a (click)="userLogout()">Logout</a></li>
       <li>
-        <a [routerLink]="cartValue>0?'cart-page':null">Cart ({{ cartValue }})</a>
+        <a [routerLink]="cartValue > 0 ? 'cart-page' : null"
+          >Cart ({{ cartValue }})</a
+        >
       </li>
     </ul>
   </div>
